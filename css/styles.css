@@ -1,0 +1,166 @@
+/*------tag selectors-----*/
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #274742;
+
+
+
+}
+
+h1{
+    line-height: 2;
+}
+
+h2{
+    font-family: 'Merriweather', serif;
+    color: #11999E;
+    font-weight: normal;
+}
+h3 {
+    font-family: 'Merriweather', serif;
+    color: #11999E;
+}
+
+a{
+    color: #11999E;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    color: #EAF6F6;
+    border-width: 0.45rem;
+    width: 3rem;
+    margin: 6rem auto;
+}
+
+
+/*------class selectors-----*/
+.heading {
+    margin: 50px auto 0 auto;
+    font-size: 5.6rem;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+
+
+}
+.heading2{
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: #66BFBF;
+    
+}
+.hello-heading{
+    font-size: 2rem;
+}
+.skills-heading{
+    font-size: 2rem;
+}
+
+.top-container {
+    background-color: azure;
+    padding-top: 100px;
+    position: relative;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 200px;
+    top: 100px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 100px;
+
+}
+
+
+
+.middle-container {
+    margin:100px 0;
+}
+
+.profile{
+    width: 50%;
+    margin: auto;
+}
+
+.profile-img{
+    width: 40%;
+}
+
+.skill-row{
+    text-align: left;
+    width: 50%;
+    margin: 100px auto;
+    line-height: 2;
+}
+.code-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.plant-img{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+    
+}
+.inspire-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.contact-me{
+    width: 50%;
+    margin: auto;
+}
+
+.contact-heading{
+    font-size: 2rem;
+}
+.contact-subheading{
+    font-size: 1rem;
+    margin: 3rem auto;
+
+}
+.contact-para{
+    line-height: 2rem;
+}
+
+.btn{
+    background-color: #11999E;
+    border: none;
+    padding: 8px 20px; 
+    border: solid white;
+    border-radius: 8px;
+    margin-top: 2rem;
+    
+}
+
+.btn:hover{
+    background-color: #2bc4ad;
+}
+
+.btn-text{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 30px;
+}
+.footer-link{
+    text-decoration: none;
+    color:  #405e5f;
+    margin: auto 20px;
+}
+
+.copyright{
+    color:#EAF6F6 ;
+}
+/*------id selectors-----*/
